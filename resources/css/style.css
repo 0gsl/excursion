@@ -21,6 +21,12 @@ header a {
   text-transform: uppercase;
 }
 
+/* Video */
+video {
+  width: 100%;
+  display: block;
+}
+
 /* Headings */
 h1, h2 {
   font-size: 48px;
@@ -36,33 +42,16 @@ p {
   padding: 10px 40px;
 }
 
-/* Phone container */
-.phone {
-  position: relative;
-  width: 400px;
+/* Landscape image */
+p img[alt="Landscape"] {
+  max-width: 90%;
+  display: block;
   margin: 0 auto;
 }
 
-.phone video {
-  position: absolute;
-  top: 9%;
-  left: 10%;
-  width: 80%;
-  height: 82%;
-  object-fit: cover;
-  z-index: -1;
-}
-
-.phone img {
-  width: 100%;
-  display: block;
-  position: relative;
-  z-index: 1;
-}
-
-/* Images */
-img {
-  max-width: 100%;
+/* Cellphone icon */
+p img[alt="Cellphone icon"] {
+  max-width: 8%;
   display: block;
   margin: 0 auto;
 }
