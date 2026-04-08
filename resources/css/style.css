@@ -1,3 +1,42 @@
+/* General */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Trebuchet MS', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  padding: 20px 0;
+}
+
+header a {
+  color: #7fc87f;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Headings */
+h1, h2 {
+  font-size: 48px;
+  font-weight: bold;
+  padding: 20px 40px;
+  line-height: 1.2;
+}
+
+/* Supporting text */
+p {
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 40px;
+}
+
+/* Phone container */
 .phone {
   position: relative;
   width: 400px;
@@ -19,4 +58,23 @@
   display: block;
   position: relative;
   z-index: 1;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  padding: 40px 0;
+}
+
+footer a {
+  color: #7fc87f;
+  text-decoration: underline;
+  font-size: 16px;
 }
